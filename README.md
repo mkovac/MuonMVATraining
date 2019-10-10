@@ -25,13 +25,13 @@ Only step 1 and 4 require interaction with CMSSW, the other steps can be done of
 
 ### Step 0 - Clone this repository and tweak the configuration
 
-Adapt the configuration in `config.py` to your needs.
+Adapt the configuration in e.g. `config_2016.py` to your needs.
 
 ### Step 1 - Making NTuples for Training
 
 Start by setting up the CMSSW area:
 
-* `scram project CMSSW_10_3_1`
+* `cmsrel CMSSW_10_3_1`
 * `cd CMSSW_10_3_1/src`
 * `cmsenv`
 
